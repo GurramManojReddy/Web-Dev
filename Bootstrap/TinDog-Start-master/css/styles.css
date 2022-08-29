@@ -1,0 +1,162 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  text-align: right;
+  margin-left: 95px;
+}
+
+.img {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.img:hover {
+  color: #ff4c68;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.feature-box {
+  padding: 4% 6%;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8f8f8f
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.dog {
+  border-radius: 100%;
+  width: 20%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.column {
+  text-align: center;
+  padding: 3% 2%;
+  outline-color: #000000;
+}
+
+.index {
+  background-color: #fff;
+  z-index: 1;
+}
+
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+.call-to-action {
+  font-family: Montserrat;
+  background-color: #ff4c68;
+  text-align: center;
+  font-weight: 900;
+  padding: 5% 0;
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.statement {
+  font-weight: 900;
+  font-size: 3rem;
+  width: 50%;
+  position: relative;
+  left: 380px;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 5% 10% 0;
+  font-weight: 100;
+}
+
+.foot {
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
